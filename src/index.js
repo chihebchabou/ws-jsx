@@ -2,7 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+import { fullName as fl } from './App';
+import { age } from './App';
 import reportWebVitals from './reportWebVitals';
+
+console.log(`fullname: ${fl}`);
+console.log(`age: ${age}`);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
